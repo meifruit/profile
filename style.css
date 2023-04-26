@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+
+body {
+  font-family: 'Indie Flower', cursive;
+  background-color: #0E5E6F;
+  background-image: linear-gradient(0deg, #3A8891 0%, #0E5E6F 100%);
+}
+.container {
+  width: 450px;   /* This sets the width */
+  margin: 32px auto;
+}
+h1, h2 {
+  font-family: 'Indie Flower', cursive;
+  font-size:24pt
+}
+
+a {
+  text-decoration: none;
+}
+
+img.img-circle {
+  border-radius: 30%;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  box-shadow: 8px 8px 16px rgb(0 0 0 / 70%);
+}
+
+.text-blue {
+  color:#367E18
+}
+.font-size {
+  font-size: 16pt;
+}
+a.blue{
+  padding: 10px 12px;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #4a98b2;
+  color: rgb(240,240,240);
+}
+
+a.blue:hover {
+  background-color: #2A2F4F;
+  transition: 0.3s;
+}
+
+.card-pink {
+  /* width: 380px;
+  margin: 32px auto; */
+  text-align: center;
+  box-shadow: 0 0 16px rgb(0 0 0 / 30%);
+  padding: 0px;
+  background-color: #FEF2F4;
+  border-radius: 8px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+/* .list-inline li {
+  display: inline;
+} */
+.list-inline li a {
+  color: #54BAB9;
+  font-size: 24px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
